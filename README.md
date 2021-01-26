@@ -1,2 +1,2 @@
-# ComWatch
+# ComWatch_Repository
 Lecteur de vidéo synchronisé entre les utilisateurs avec chat, playlist, système de recherche, etc...
