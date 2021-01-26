@@ -22,3 +22,15 @@ back:
 le plus gros:
 	"synchro vidéo"
 flat color
+
+1 faire le lecteur vidéo
+/ mise en ligne du site
+/ sql
+	salon enregistré
+	savoir ce qu'on persiste ou pas
+
+/ url a partager
+2 le connecter entre les utilisateurs
+3 faire un chat
+4 faire un système de playlist
+5 faire le front
