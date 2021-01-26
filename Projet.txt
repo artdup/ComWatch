@@ -1,0 +1,24 @@
+Nom de l’entreprise, entreprise de quoi, etc… :  AMR iCorporation
+
+Répondre à quel(s) besoin(s) ?  => B2B ou B2C ? B2C
+
+Site web, app native, app webview... ?
+	magasin/launcher de jeux vidéo
+hub de plateforme musique
+plateforme de streaming vidéo en commun (regarder YT, etc. à plusieurs)
+	nom : Comwatch
+	
+résumé :
+	La plateforme Comwatch© de l’entreprise AMR iCorporation est une plateforme de streaming de vidéo à plusieurs (par exemple regarder une vidéo youtube en simultané avec d’autre utilisateurs). 
+
+pistes:
+	-chat
+	-sondage
+	-queue
+	-système d'amis
+
+back:
+	serveur, base de donée : légée
+le plus gros:
+	"synchro vidéo"
+flat color
