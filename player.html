@@ -1,34 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Player</title>
-<link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
-    <nav>
-        <ul>
-          <li><a href="index.html">ComWatch</a></li>
-        <ul>
-          <li><a href="player.html">Watch now!</a></li>
-          <ul>
-          <li><a href="#0">Sign in - Sign up</a></li>
-           <ul>
-              <li><a href="#0">Sign in</a></li>
-              <li><a href="#0">Sign up</a></li>
-            </ul>
-          </li>
-        </nav>
 
-    <div>
-        <label for="url" id="text">Enter URL:</label>
-        <input type="url" id="url" name="Video" aria-label="Search YouTube video by url">
-        <button class="button_sub" id="submit_button">Submit</button>
-    </div>
-    <div class="Player">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/yhCuCqJbOVE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-    <script src="./index.js"></script>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Player</title>
+  <link rel="stylesheet" type="text/css" href="assets/CSS/style.css">
+  <link href="https://getbootstrap.com/docs/5.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">ComWatch</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="player.html">The Player</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="signin.html">Sign in</a>
+          </li>
+  </nav>
+
+  <div>
+    <label for="url" id="text">Enter URL:</label>
+    <input type="url" id="url" name="Video" aria-label="Search YouTube video by url">
+    <button class="button_sub" id="submit_button">Submit</button>
+  </div>
+  <div class="Player">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/yhCuCqJbOVE" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen></iframe>
+  </div>
+  <script src="assets/JS/index.js"></script>
 </body>
+
 </html>
