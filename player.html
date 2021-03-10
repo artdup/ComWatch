@@ -10,9 +10,12 @@
     integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 </head>
 
-<body>
+<body class="bodycustom">
   <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
     <div class="container-fluid">
+      <a href="index.html">
+        <img src="assets/images/default.svg" class="rounded" alt="logo" width="150" height="100">
+      </a>
       <a class="navbar-brand" href="index.html">ComWatch</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
         aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,12 +27,16 @@
             <a class="nav-link active" aria-current="page" href="player.html">The Player</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="signin.html">Sign in</a>
+            <div class="sign-in-button">
+              <a class="nav-link" href="signin.html">Sign in</a>
+            </div>
           </li>
   </nav>
 
   <div>
-    <label for="url" id="text">Enter URL:</label>
+    <div class="white-text">
+      <label for="url" id="text">Enter URL:</label>
+    </div>
     <input type="url" id="url" name="Video" aria-label="Search YouTube video by url">
     <button class="button_sub" id="submit_button">Submit</button>
   </div>
