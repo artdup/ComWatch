@@ -7,6 +7,16 @@
   color: white;
 }
 
+.centered-url {
+  margin: 0 auto;
+  width: 300px; 
+}
+
+.centered-video {
+  margin: 0 auto;
+  width: 43%; /* 50% ne donne pas un assez bon rendu */
+}
+
 .button_sub {
   background-color: #4CAF50;
   border: none;
