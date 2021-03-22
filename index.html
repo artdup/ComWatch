@@ -3,37 +3,78 @@
 
 <head>
     <title>Home - ComWatch</title>
+    <link rel="stylesheet" type="text/css" href="assets/CSS/bulma/css/bulma.css">
     <link rel="stylesheet" type="text/css" href="assets/CSS/style.css">
-    <link href="https://getbootstrap.com/docs/5.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 </head>
 
 <body class="bodycustom">
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">ComWatch</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
-                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="player.html">The Player</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="signin.html">Sign in</a>
-                    </li>
-    </nav>
-
-    <main class="container">
-        <div class="bg-light p-5 rounded">
-            <h1>ComWatch</h1>
-            <p class="lead">To watch a video please create or join a room.</p> <i class="bi bi-camera-video-fill"></i>
-            <a class="btn btn-lg btn-primary" href="new.html" role="button">Create a new room &raquo;</a>
+    <!-- le Menu-->
+    <nav class="navbar">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="index.html">
+                <img src="assets/images/logo.png" alt="ComWatch" width="120" height="50">
+            </a>
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
+                data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
         </div>
-    </main>
 
+        <div id="navbarBasicExample" class="navbar-menu">
+            <div class="navbar-start">
+                <a class="navbar-item" style="color: white;" href="index.html">
+                    Home
+                </a>
+                <a class="navbar-item" style="color: white;" href="player.html">
+                    Player
+                </a>
+            </div>
+        </div>
+
+        <div class="navbar-end">
+            <div class="navbar-item">
+                <div class="field is-grouped">
+                    <p class="control">
+                        <a class="button is-primary" href="signin.html">
+                            <span class="icon">
+                                <img src="assets/images/login-icon.png">
+                            </span>
+                            <span>Sign in</span>
+                        </a>
+                    </p>
+                    <p class="control">
+                        <a class="button is-primary" href="signup.html">
+                            <span class="icon">
+                                <img src="assets/images/signup-icon.png">
+                            </span>
+                            <span>Sign up</span>
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </nav>
+    <!--fin du Menu-->
+
+    <div class="box">
+        <h1>ComWatch</h1>
+        <p class="lead">To watch a video please create or join a room.</p>
+        <button class="button is-link" href="new.html">Create a new room &raquo;</button>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p>
+                <a class="footer-text" href="index.html">ComWatch</a>, Made in
+                <img src="assets/images/france-flag-icon.png">
+            </p>
+        </div>
+    </footer>
+    <!-- Footer -->
 
 
 </body>

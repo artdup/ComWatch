@@ -1,20 +1,37 @@
+html {
+  background: #282c34
+}
+
+body {
+  min-height: 100%;
+  min-width: 100%;
+}
+
 .bodycustom {
   background: #282c34;
-  font-family: 'Lexend Exa', sans-serif;
 }
 
 .white-text {
   color: white;
 }
 
+.navbar{
+  background: #2c3e50;
+}
+
+#playing-content {
+margin-top: 50px;
+}
+
 .centered-url {
   margin: 0 auto;
-  width: 300px; 
+  width: 300px;
 }
 
 .centered-video {
   margin: 0 auto;
-  width: 43%; /* 50% ne donne pas un assez bon rendu */
+  width: 38%;
+  /* 50% ne donne pas un assez bon rendu */
 }
 
 .button_sub {
@@ -28,74 +45,12 @@
   font-size: 16px;
 }
 
-nav {
-  position: absolute;
-  top: 10px;
-  left: 50%;
-  transform: translateX(-50%);
-  display: inline-block;
-  border: 2px solid #EBECF1;
-  border-radius: 30px;
-  animation: slide-in 1s ease-out;
-}
+.footer {
+  background: #636e72;
+    margin-top: 150px;
+    color: white;
+ }
 
-ul {
-  position: relative;
-  display: flex;
-  flex: 1 1 auto;
-  margin: 0;
-  padding: 0 30px;
-  list-style-type: none;
-  li:not(:last-child) {
-    margin-right: 40px;
-  }
-  li {
-    border: 2px solid transparent;
-    border-radius: 5px;
-    padding: 10px;
-    transition: background 0.2s;
-    a {
-      color: #2375D8;
-      text-decoration: none;
-      text-transform: uppercase;
-      transition: color 0.2s;
-    }
-  }
-  ul {
-    visibility: hidden;
-    opacity: 0;
-    position: absolute;
-    display: block;
-    margin: 12px -12px;
-    padding: 0;
-    background: #FFA91B;
-    border: 2px solid #F7C833;
-    border-right: 2px solid #F89329;
-    border-bottom: 2px solid #F89329;
-    border-radius: 5px;
-    transition: opacity 0.2s, visibility 0.2s;
-    li {
-      margin: -2px 0 0 -2px;
-      width: calc(100% - 20px);
-      line-height: 1.7;
-      a {
-        color: #2375D8;
-      }
-    }
-  }
-  @keyframes slide-in {
-    0% {
-      top: -50px;
-    }
-    40% {
-      top: 20px;
-    }
-    70% {
-      top: 10px;
-    }
-    100% {
-      top: 15px;
-    }
-  }
-
-  .sign-in-button 
+ .footer-text {
+   color: #b33939;
+ }

@@ -5,37 +5,69 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Player</title>
+  <link rel="stylesheet" type="text/css" href="assets/CSS/bulma/css/bulma.css">
   <link rel="stylesheet" type="text/css" href="assets/CSS/style.css">
-  <link href="https://getbootstrap.com/docs/5.0/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 </head>
 
 <body class="bodycustom">
-  <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
-    <div class="container-fluid">
-      <a href="index.html">
-        <img src="assets/images/default.svg" class="img-responsive navbar-brand" alt="logo" width="70%" height="70%">
+
+  <!-- le Menu-->
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="index.html">
+        <img src="assets/images/logo.png" alt="ComWatch" width="120" height="50">
       </a>
-
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav me-auto mb-2 mb-md-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="player.html">The Player</a>
-          </li>
-          <li class="nav-item">
-            <div class="sign-in-button">
-              <a class="nav-link" href="signin.html">Sign in</a>
-            </div>
-          </li>
-  </nav>
-
-  <div class="centered-url">
-    <div class="white-text">
-      <label for="url" id="text">Enter URL:</label>
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
     </div>
-    <input type="url" id="url" name="Video" aria-label="Search YouTube video by url">
-    <button class="button_sub" id="submit_button">Submit</button>
-  </div>
+
+    <div id="navbarBasicExample" class="navbar-menu">
+      <div class="navbar-start">
+        <a class="navbar-item" style="color: white;" href="index.html">
+          Home
+        </a>
+        <a class="navbar-item" style="color: white;" href="player.html">
+          Player
+        </a>
+      </div>
+    </div>
+
+    <div class="navbar-end">
+      <div class="navbar-item">
+        <div class="field is-grouped">
+          <p class="control">
+            <a class="button is-primary" href="signin.html">
+              <span class="icon">
+                <img src="assets/images/login-icon.png">
+              </span>
+              <span>Sign in</span>
+            </a>
+          </p>
+          <p class="control">
+            <a class="button is-primary" href="signup.html">
+              <span class="icon">
+                <img src="assets/images/signup-icon.png">
+              </span>
+              <span>Sign up</span>
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+    </div>
+  </nav>
+  <!--fin du Menu-->
+  <div id="playing-content">
+    <div class="centered-url">
+      <div class="white-text">
+        <label for="url" id="text">Enter URL:</label>
+      </div>
+      <input type="url" id="url" name="Video" aria-label="Search YouTube video by url">
+      <button class="button_sub" id="submit_button">Submit</button>
+    </div>
   </div>
   <br>
   <div class="Player centered-video">
@@ -43,16 +75,17 @@
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowfullscreen></iframe>
   </div>
-
-  <footer>
-    <!-- Copyright -->
-    <div class="text-center p-3" style="background-color: #7f8c8d;">
-      © 2021 <a class="text-white" href="index.html">ComWatch</a> Made in  &nbsp;<img src="assets/images/france-flag-icon.png">
+  </div>
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="content has-text-centered">
+      <p>
+        <a class="footer-text" href="index.html">ComWatch</a>, Made in
+        <img src="assets/images/france-flag-icon.png">
+      </p>
     </div>
-    <!-- Copyright -->
   </footer>
   <!-- Footer -->
-
 
 
 
